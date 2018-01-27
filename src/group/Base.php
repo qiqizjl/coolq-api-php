@@ -6,9 +6,9 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\group;
+namespace naixiaoxin\coolq\group;
 
-use qiqizjl\coolq\Base as CoolQBase;
+use naixiaoxin\coolq\Base as CoolQBase;
 
 
 class Base extends CoolQBase{
@@ -40,7 +40,7 @@ class Base extends CoolQBase{
      * 获得数据
      * @param array $data
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getData($data = [])
     {

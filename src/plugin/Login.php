@@ -6,9 +6,9 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\plugin;
+namespace naixiaoxin\coolq\plugin;
 
-use qiqizjl\coolq\Base;
+use naixiaoxin\coolq\Base;
 
 class Login extends Base{
 

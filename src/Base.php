@@ -6,7 +6,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq;
+namespace naixiaoxin\coolq;
 
 use Curl\Curl;
 

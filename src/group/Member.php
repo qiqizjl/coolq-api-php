@@ -6,7 +6,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\group;
+namespace naixiaoxin\coolq\group;
 
 
 class Member extends Base{
@@ -14,7 +14,7 @@ class Member extends Base{
     /**
      * 获得群成员
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getMemberList()
     {
@@ -28,7 +28,7 @@ class Member extends Base{
      * @param      $user_id
      * @param bool $no_cache
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getMemberInfo($user_id,$no_cache = false)
     {
@@ -44,7 +44,7 @@ class Member extends Base{
      * @param     $user_id
      * @param int $time
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function setMemberBan($user_id,$time = 0)
     {
@@ -59,7 +59,7 @@ class Member extends Base{
      * 全体禁言
      * @param $enable
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function setAllBan($enable)
     {
@@ -74,7 +74,7 @@ class Member extends Base{
      * @param      $user_id
      * @param bool $enable
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function setAdmin($user_id,$enable = false)
     {
@@ -89,7 +89,7 @@ class Member extends Base{
      * 是否允许匿名
      * @param $enable
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function setAnonymous($enable)
     {
@@ -105,7 +105,7 @@ class Member extends Base{
      * @param        $user_id
      * @param string $card
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function setMemberCard($user_id,$card = "")
     {
@@ -121,7 +121,7 @@ class Member extends Base{
      * @param      $user_id
      * @param bool $reject_add
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function deleteMember($user_id,$reject_add = false)
     {
@@ -136,7 +136,7 @@ class Member extends Base{
      * 离开群组
      * @param bool $is_dismiss
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function leaveGroup($is_dismiss = false)
     {

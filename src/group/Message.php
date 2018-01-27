@@ -6,7 +6,7 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\group;
+namespace naixiaoxin\coolq\group;
 
 
 class Message extends Base{
@@ -17,7 +17,7 @@ class Message extends Base{
      * @param  $autoEscape
      * @param bool $isAsync
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function sendMessage($message,$autoEscape = false,$isAsync = false)
     {

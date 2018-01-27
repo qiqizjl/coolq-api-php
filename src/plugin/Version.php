@@ -6,9 +6,9 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\plugin;
+namespace naixiaoxin\coolq\plugin;
 
-use qiqizjl\coolq\Base;
+use naixiaoxin\coolq\Base;
 
 class Version extends Base
 {
@@ -19,7 +19,7 @@ class Version extends Base
     /**
      * 获得酷Q版本信息
      * @return array
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getVersionInfo()
     {
@@ -30,7 +30,7 @@ class Version extends Base
     /**
      * 酷Q的根目录
      * @return mixed
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getCoolQDirectory()
     {
@@ -40,7 +40,7 @@ class Version extends Base
     /**
      * 获得酷Q版本
      * @return mixed
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getCoolQEdition()
     {
@@ -50,7 +50,7 @@ class Version extends Base
     /**
      * 获得插件版本
      * @return mixed
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getPluginVersion()
     {
@@ -60,7 +60,7 @@ class Version extends Base
     /**
      * 获得插件Build
      * @return mixed
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getPluginBuild()
     {
@@ -70,7 +70,7 @@ class Version extends Base
     /**
      * 获得插件环境 debug/release
      * @return mixed
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function getPluginConfiguration()
     {

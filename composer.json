@@ -1,5 +1,5 @@
 {
-  "name": "qiqizjl/coolq",
+  "name": "naixiaoxin/coolq",
   "description": "CoolQ Api PHP SDK",
   "type": "library",
   "require": {
@@ -15,7 +15,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "qiqizjl\\coolq\\": "src"
+      "naixiaoxin\\coolq\\": "src"
     }
   }
   }

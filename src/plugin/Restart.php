@@ -6,9 +6,9 @@
  * @copyright 2017-2018 耐小心
  */
 
-namespace qiqizjl\coolq\plugin;
+namespace naixiaoxin\coolq\plugin;
 
-use qiqizjl\coolq\Base;
+use naixiaoxin\coolq\Base;
 
 class Restart extends Base
 {
@@ -19,7 +19,7 @@ class Restart extends Base
      * 重启酷Q
      *
      * @return bool
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function restartCoolQ()
     {
@@ -32,7 +32,7 @@ class Restart extends Base
      * 重启插件
      *
      * @return bool
-     * @throws \qiqizjl\coolq\Exception
+     * @throws \naixiaoxin\coolq\Exception
      */
     public function restartPlugin()
     {
