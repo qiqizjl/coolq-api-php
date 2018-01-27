@@ -1,0 +1,21 @@
+{
+  "name": "qiqizjl/coolq",
+  "description": "CoolQ Api PHP SDK",
+  "type": "library",
+  "require": {
+    "php": ">=5.4",
+    "curl/curl": "^1.8"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "耐小心",
+      "email": "qiqizjl@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "qiqizjl\\coolq\\": "src"
+    }
+  }
+  }
