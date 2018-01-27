@@ -11,12 +11,13 @@ namespace naixiaoxin\coolq\group;
 use naixiaoxin\coolq\Base as CoolQBase;
 
 
-class Base extends CoolQBase{
+class Base extends CoolQBase
+{
     protected $group_id = 0;
 
-    public function __construct($url,$token = "",$group_id = 0)
+    public function __construct($url, $token = "", $group_id = 0)
     {
-        parent::__construct($url,$token);
+        parent::__construct($url, $token);
         $this->group_id = $group_id;
     }
 
@@ -38,6 +39,7 @@ class Base extends CoolQBase{
 
     /**
      * 获得数据
+     *
      * @param array $data
      * @return array
      * @throws \naixiaoxin\coolq\Exception
